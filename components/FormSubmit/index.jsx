@@ -5,7 +5,7 @@ const FormSubmit = () => {
   const { pending } = useFormStatus();
 
   if (pending) {
-    return <p>Submitting...</p>;
+    return <span>Submitting...</span>;
   }
 
   return (
